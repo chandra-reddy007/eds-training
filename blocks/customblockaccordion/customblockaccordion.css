@@ -1,4 +1,21 @@
-/* .customblockaccordion  > div {
+.customblockaccordion  > div {
   display: flex;
   flex-direction: row;
-} */
+} 
+
+#leftblock {
+  background: grey;
+  display: grid;
+}
+
+#leftblock > button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+#rightblock {
+  flex: 1;    	
+  text-align:center;
+  justify-content: center;
+}
