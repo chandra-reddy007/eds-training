@@ -202,7 +202,7 @@
  * limitations under the License.
  */
 
-var dataTypes = {
+const dataTypes = {
   TYPE_NUMBER: 0,
   TYPE_ANY: 1,
   TYPE_STRING: 2,
@@ -217,7 +217,7 @@ var dataTypes = {
   TYPE_ARRAY_ARRAY: 11,
 };
 
-var tokenDefinitions = {
+const tokenDefinitions = {
   TOK_EOF: 'EOF',
   TOK_UNQUOTEDIDENTIFIER: 'UnquotedIdentifier',
   TOK_QUOTEDIDENTIFIER: 'QuotedIdentifier',

@@ -1,5 +1,3 @@
-import { createOptimizedPicture } from '../../scripts/aem.js';
-
 export default function decorate(block) {
   const divParent = document.createElement('div');
   const divLeft = divParent.createElement('div');
